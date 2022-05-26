@@ -1,0 +1,523 @@
+<html>
+
+<head>
+    <title>Menu</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    
+    .row {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    
+    .column {
+        float: left;
+        width: 50%;
+        padding: 5px;
+    }
+    
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1.5px solid rgb(43, 39, 39);
+    }
+    
+    th,
+    td {
+        text-align: left;
+        padding: 16px;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #ffd3d3;
+    }
+</style>
+
+<body>
+    <div class="row">
+        <div class="column">
+            <table>
+                <tr>
+
+                    <th style="font-size: 19px;">Items</th>
+                    <th style="font-size: 19px;">Values</th>
+                </tr>
+                <tr>
+
+                    <td>
+                        <t style="font-size: 20px;"><b>Fries</b></t>
+                        <ol type="i">
+                            <li>Waffle Fries</li>
+                            <li>Fries(MC Donald's)</li>
+                            <li>Curly Fries</li>
+                            <li>Animal Style Fries</li>
+                            <li>Cajun Fries</li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ul style="list-style: none;"><br><br>
+                            <li>50₹</li>
+                            <li>40₹</li>
+                            <li>43₹</li>
+                            <li>47₹</li>
+                            <li>78₹</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <t style="font-size: 20px;"><b>Burgers</b></t>
+                        <ol type="i">
+                            <li> Double-Double IN-N-OUT </li>
+                            <li>Bacon Cheeseburger</li>
+                            <li>Animal Style Burger</li>
+                            <li>Shack Burger</li>
+                            <li>Double Cheeseburger</li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ul style="list-style: none;"><br><br>
+                            <li>120₹</li>
+                            <li>140₹</li>
+                            <li>110₹</li>
+                            <li>100₹</li>
+                            <li>160₹</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <t style="font-size: 20px;"><b>Momos</b></t>
+                        <ol type="i">
+                            <li>Veg Momos</li>
+                            <li>Non-Veg Momos</li>
+                            <li>Paneer Momos</li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ul style="list-style: none;">
+                            <li>full plate: 70₹</li>
+                            <li>full plate: 100₹</li>
+                            <li>full plate: 90₹</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <t style="font-size: 20px;"><b>Pizza</b></t>
+                        <ol type="i">
+                            <li>Cheese Pizza</li>
+                            <li>Peppy Paneer Pizza</li>
+                            <li>Indi Tandoori Paneer</li>
+                            <li>Chicken Pizza</li>
+                            <li>Veg Extravaganza</li>
+                            <li>Paneer Makhani</li>
+                            <li>Veggie Paradise</li>
+                            <li>Mexican Green Wave</li>
+                            <li>Deluxe Veggie</li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ul style="list-style: none;"><br><br>
+                            <li>90₹</li>
+                            <li>170₹</li>
+                            <li>130₹</li>
+                            <li>200₹</li>
+                            <li>150₹</li>
+                            <li>150₹</li>
+                            <li>145₹</li>
+                            <li>165₹</li>
+                            <li>180₹</li>
+
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <t style="font-size:20px"><b>Sandwiches</b></t>
+                        <ol type="i">
+                            <li>Bread Sandwich</li>
+                            <li>Cheese Sandwich</li>
+                            <li>Chicken Sandwich</li>
+                            <li>Egg Sandwich</li>
+                            <li>Ice Cream Sandwich</li>
+                            <li> Oreo Ice Cream Sandwich</li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ul style="list-style: none;"><br><br>
+                            <li>50₹</li>
+                            <li>70₹</li>
+                            <li>100₹</li>
+                            <li>80₹</li>
+                            <li>80₹</li>
+                            <li>90₹</li>
+
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <t style="font-size: 20px;"><b>Tacos</b></t>
+                        <ol type="i">
+                            <li>Cheese Gardita Crunch</li>
+                            <li>Paneer Gardita Crunch</li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ul style="list-style: none;"><br><br>
+                            <li>80₹</li>
+                            <li>100₹</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <t style="font-size: 20px;"><b>Chowmeins</b></t>
+                        <ol type="i">
+                            <li>Veg Chowmein</li>
+                            <li>Non-Veg Chowmein</li>
+                            <li>Paneer Chowmein</li>
+                            <li>Egg Chowmein</li>
+                            <li>Noodle</li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ul style="list-style: none;"><br><br>
+                            <li>full plate: 60₹</li>
+                            <li>full plate: 90₹</li>
+                            <li>full plate: 75₹</li>
+                            <li>full plate: 70₹</li>
+                            <li>full plate: 60₹</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <t style="font-size: 20px;"><b>Ice-Creams</b></t>
+                        <ol type="i">
+                            <li>Vanilla </li>
+                            <li>Mango</li>
+                            <li>Chocolate</li>
+                            <li>Strawberry</li>
+                            <li>Butter Pecan</li>
+                            <li>Chocolate Chip Cookie Dough</li>
+                            <li>Cookie Dough</li>
+                            <li>Cookies N' Cream</li>
+                            <li>Moose Tracks</li>
+                            <li>Butter Scotch</li>
+                            <li>Kulfi</li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ul style="list-style: none;"><br><br>
+                            <li>40₹</li>
+                            <li>30₹</li>
+                            <li>50₹</li>
+                            <li>40₹</li>
+                            <li>70₹</li>
+                            <li>100₹</li>
+                            <li>70₹</li>
+                            <li>90₹</li>
+                            <li>70₹</li>
+                            <li>50₹</li>
+                            <li>20₹</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <t style="font-size: 20px;"><b>Aloo</b></t>
+                        <ol type="i">
+                            <li> Aloo Palak</li>
+                            <li>Aloo Methi </li>
+                            <li>Aloo Paneer</li>
+                            <li>Aloo Chhole</li>
+                            <li>Aloo Cury</li>
+                            <li>Aloo Matar Korma</li>
+                            <li>Aloo Posto</li>
+                            <li>Aloo Gobhi</li>
+                            <li>Aloo Fried</li>
+                            <li>Dum Aloo</li>
+                            <li>Shahi Aloo Pyaaz</li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ul style="list-style: none;"><br><br>
+                            <li>60₹</li>
+                            <li>65₹</li>
+                            <li>100₹</li>
+                            <li>90₹</li>
+                            <li>70₹</li>
+                            <li>95₹</li>
+                            <li>70₹</li>
+                            <li>70₹</li>
+                            <li>60₹</li>
+                            <li>80₹</li>
+                            <li>85₹</li>
+                        </ul>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+        <div class="column">
+            <table>
+                <table>
+                    <tr>
+
+                        <th style="font-size: 19px;">Items</th>
+                        <th style="font-size: 19px;">Values</th>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <t style="font-size: 20px;"><b>Paneer</b></t>
+                            <ol type="i">
+                                <li>Shahi Paneer</li>
+                                <li>Palak Paneer</li>
+                                <li>Paneer Butter Masala</li>
+                                <li>Paneer Tikka Masala</li>
+                                <li>Matar Paneer</li>
+                            </ol>
+                        </td>
+                        <td>
+                            <ul style="list-style: none;">
+                                <li>full plate: 160₹</li>
+                                <li>full plate: 150₹</li>
+                                <li>full plate: 190₹</li>
+                                <li>full plate: 200₹</li>
+                                <li>full plate: 170₹</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <t style="font-size: 20px;"><b>Chhole</b></t>
+                            <ol type="i">
+                                <li>Chhole Curry</li>
+                                <li>Aloo Tikki Chhole</li>
+                                <li>Methi Chhole</li>
+                                <li>Palak Chhole</li>
+                                <li>Paneer Chhole</li>
+                                <li>Mix Veg Chhole</li>
+                                <li>Palak Pudina Chhole</li>
+                                <li>Chhole Chaat</li>
+                            </ol>
+                        </td>
+                        <td>
+                            <ul style="list-style: none;"><br><br>
+                                <li>full plate: 150₹</li>
+                                <li>full plate: 170₹</li>
+                                <li>full plate: 140₹</li>
+                                <li>full plate: 130₹</li>
+                                <li>full plate: 170₹</li>
+                                <li>full plate: 1450₹</li>
+                                <li>full plate: 140₹</li>
+                                <li>full plate: 120₹</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <t style="font-size: 20px;"><b>Daal</b></t>
+                            <ol type="i">
+                                <li>Urad Daal</li>
+                                <li>Mung Daal</li>
+                                <li>Masur Daal</li>
+                                <li>Chana Daal</li>
+                                <li>Yellow Daal</li>
+                                <li>Matki Daal</li>
+                                <li>Chhole Daal</li>
+                                <li>Rasma Daal</li>
+
+                            </ol>
+                        </td>
+                        <td>
+                            <ul style="list-style: none;"><br><br>
+                                <li>40₹</li>
+                                <li>45₹</li>
+                                <li>50₹</li>
+                                <li>40₹</li>
+                                <li>60₹</li>
+                                <li>40₹</li>
+                                <li>60₹</li>
+                                <li>80₹</li>
+
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <t style="font-size: 20px;"><b>Roti</b></t>
+                            <ol type="i">
+                                <li>Chapati</li>
+                                <li>Makki Roti</li>
+                                <li>Missi Roti</li>
+                                <li>Rumali Roti</li>
+                                <li> Akki Roti</li>
+
+                            </ol>
+                        </td>
+                        <td>
+                            <ul style="list-style: none;"><br><br>
+                                <li>8₹</li>
+                                <li>10₹</li>
+                                <li>12₹</li>
+                                <li>8₹</li>
+                                <li>5₹</li>
+
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <t style="font-size: 20px;"><b>Paratha</b></t>
+                            <ol type="i">
+                                <li>Aloo Paratha</li>
+                                <li>Mooli Paratha</li>
+                                <li>Methi Paratha</li>
+                                <li>Paneer Paratha</li>
+                                <li>Onion Paratha</li>
+                                <li>Gobhi Paratha</li>
+                            </ol>
+                        </td>
+                        <td>
+                            <ul style="list-style: none;"><br><br>
+                                <li>25₹</li>
+                                <li>25₹</li>
+                                <li>25₹</li>
+                                <li>35₹</li>
+                                <li>25₹</li>
+                                <li>23₹</li>
+
+                            </ul>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <t style="font-size: 20px;"><b>Raita(Curd)</b></t>
+                            <ol type="i">
+                                <li>Boondi Raita</li>
+                                <li>Mix Veg Raita</li>
+                                <li>Pudina Raita</li>
+                                <li>Kheera Raita</li>
+                                <li>Onion Raita</li>
+                                <li>Carrot Raita</li>
+                                <li>Sada Raita</li>
+
+                            </ol>
+                        </td>
+                        <td>
+                            <ul style="list-style: none;"><br><br>
+                                <li>40₹</li>
+                                <li>35₹</li>
+                                <li>35₹</li>
+                                <li>35₹</li>
+                                <li>40₹</li>
+                                <li>35₹</li>
+                                <li>20₹</li>
+
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <t style="font-size: 20px;"><b>Rice</b></t>
+                            <ol type="i">
+                                <li>Zeera Rice</li>
+                                <li>Fried Rice</li>
+                                <li>Sada Rice</li>
+                                <li>Sada Pulao</li>
+                                <li>Matar Pulao</li>
+                                <li>Veg Pulao</li>
+                            </ol>
+                        </td>
+                        <td>
+                            <ul style="list-style: none;"><br><br>
+                                <li>full plate: 60₹</li>
+                                <li>full plate: 65₹</li>
+                                <li>full plate: 50₹</li>
+                                <li>full plate: 55₹</li>
+                                <li>full plate: 60₹</li>
+                                <li>full plate: 70₹</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <t style="font-size: 20px;"><b>Non-Veg</b></t>
+                            <ol type="i">
+                                <li>Chicken Tandoori</li>
+                                <li>Chicken Fry</li>
+                                <li>Chicken Malai Tikka</li>
+                                <li>Chicken Paneer Tikka</li>
+                                <li>Chicken Masala</li>
+                                <li>Chicken Cury</li>
+                                <li>Chicken Korma</li>
+                                <li>Chicken Musallam</li>
+                                <li>Chicken Chilli</li>
+                                <li>Sada Mutton</li>
+                                <li>Bhuna Mutton</li>
+                            </ol>
+                        </td>
+                        <td>
+                            <ul style="list-style: none;"><br><br>
+                                <li>full plate: 220₹</li>
+                                <li>full plate: 240₹</li>
+                                <li>full plate: 250₹</li>
+                                <li>full plate: 230₹</li>
+                                <li>full plate: 340₹</li>
+                                <li>full plate: 280₹</li>
+                                <li>full plate: 300₹</li>
+                                <li>full plate: 260₹</li>
+                                <li>full plate: 220₹</li>
+                                <li>full plate: 240₹</li>
+                                <li>full plate: 320₹</li>
+
+
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>
+                            <t style="font-size: 20px;"><b>Salad</b></t>
+                            <ul>
+                                <li>Carrot</li>
+                                <li>Radish</li>
+                                <li>Cucumber</li>
+                                <li>Onion</li>
+                                <li>Apple</li>
+                                <li>Banana</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul><br><br>
+                                <li>Guava</li>
+                                <li>Grapes</li>
+                                <li>Papaya</li>
+                                <li>Turnip</li>
+                                <li>Flesh</li>
+                                <li>Watermelon</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+
+
+        </div>
+</body>
+
+</html>
